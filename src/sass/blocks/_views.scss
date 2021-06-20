@@ -1,0 +1,33 @@
+.views {
+    &__box {
+        display: flex;
+    }
+
+    &__item {
+        width: 25%;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    &__title {
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #333;
+        line-height: 1.2;
+        height: 45px;
+    }
+
+    &__text {
+        margin-top: 40px;
+        font-size: 18px;
+        color: #333;
+    }
+
+    &__author {
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: 900;
+        color: #333;
+    }
+}

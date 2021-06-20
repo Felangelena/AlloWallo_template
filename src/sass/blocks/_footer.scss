@@ -1,0 +1,64 @@
+footer {
+    background-color: #333;
+    color: #d6d6d6;
+    font-size: 16px;
+}
+
+.footer {
+    &__box {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        width: 25%;
+        padding-right: 32px;
+        padding-left: 32px;
+    }
+
+    &__title {
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+
+    &__link {
+        color: #d6d6d6;
+        line-height: 2.5;
+        transition: all 0.2s ease;
+
+        &:hover {
+            color: #fff;
+            padding-left: 10px;
+        }
+    }
+
+    &__city {
+        font-weight: 900;
+    }
+
+    &__contacts {
+        margin-bottom: 20px;
+    }
+
+    &__social {
+        display: flex;
+        flex-flow: row wrap;
+
+        &__img {
+            width: 22px;
+            height: 22px;
+            margin-right: 14px;
+            margin-bottom: 10px;
+            fill: #fff;
+            transition: all 0.4s;
+
+            &:hover {
+                width: 26px;
+                height: 26px;
+            }
+        }
+
+    }
+}

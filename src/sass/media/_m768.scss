@@ -1,0 +1,143 @@
+@media (max-width: 767.98px) {
+    .container {
+        width: 520px;
+    }
+
+    .logo {
+        right: 25px;
+    }
+
+    .hamburger {
+        left: 15px;
+    }
+
+    .title {
+        font-size: 32px;
+
+        span {
+            width: 170px;
+            left: 320px;
+        }
+    }
+
+    .tab_content {
+        width: 100%;
+        height: auto;
+    }
+
+    #tabs .tab {
+        width: 12.5%;
+        height: 25px;
+        padding: 3px;
+        font-size: 8px;
+        line-height: 9px;
+        border-right: 1px solid #fff;
+    }
+
+    .circle {
+        font-size: 14px;
+        width: 180px;
+        height: 180px;
+
+        top: -10px;
+        left: 10px;
+    }
+
+    .btn {
+        width: 115px;
+        height: 50px;
+        letter-spacing: 1px;
+        font-size: 16px;
+        line-height: 16px;
+
+        &_wide {
+            width: 210px;
+            margin: 15px auto 35px auto;
+        }
+    }
+
+    .tab_1>.btn {
+        bottom: 70px;
+    }
+
+    .tab_1>.btn_black {
+        bottom: 10px;
+    }
+
+    .shapes {
+        height: 80px;
+    }
+
+    h2 {
+        font-size: 30px;
+        height: 50px;
+        margin-bottom: 25px;
+    }
+
+    .occasions__info {
+        font-size: 14px;
+    }
+
+    .occasions__item {
+        margin-bottom: 20px;
+
+        &__days {
+            font-size: 14px;
+        }
+    }
+
+    .recommends__info {
+        font-size: 14px;
+    }
+
+    .recommends .btn {
+        margin-top: 0px;
+    }
+
+    .picture__item {
+        width: 90%;
+        margin-right: 0;
+    }
+
+    .best__info {
+        font-size: 14px;
+    }
+
+    .views__box {
+        flex-flow: row wrap;
+    }
+
+    .views__item {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+    .views__text {
+        margin-top: 0px;
+    }
+
+    .new__box {
+        flex-flow: row wrap;
+    }
+
+    .new .picture__item,
+    .new .picture__item:last-child {
+        margin: 30px auto 30px auto;
+    }
+
+    .picture__title {
+        margin-top: 35px;
+    }
+
+    .new .picture__title {
+        height: auto;
+    }
+
+    .quality__item {
+        margin-bottom: 40px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}

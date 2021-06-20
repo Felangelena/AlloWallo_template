@@ -1,0 +1,120 @@
+#tabs {
+    display: flex;
+    justify-content: center;
+}
+
+#tabs .tab {
+    width: 150px;
+    height: 55px;
+    background: #e5e5e5;
+    border-right: 5px solid #FFF;
+    padding: 12px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+
+    &:last-child {
+        border-right: 0;
+    }
+}
+
+#tabs>.active {
+    background: #333;
+    color: #FFF;
+}
+
+#tab_container {
+    display: flex;
+}
+
+.tab_active {
+    display: block !important;
+}
+
+.tab_content {
+    display: none;
+    width: 1266px;
+    height: 515px;
+    position: relative;
+    z-index: 2;
+    border-top: 35px solid #333;
+}
+
+.tab_1 {
+    background: #ddd;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Bodoni Moda',
+        serif;
+    font-size: 36px;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    background: url('../img/bg/bg_circle.jpg') no-repeat center center/cover;
+
+    position: relative;
+    top: -25px;
+    left: 38px;
+}
+
+.tab_1>.btn {
+    position: absolute;
+    bottom: 120px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.tab_1>.btn_black {
+    bottom: 45px;
+}
+
+.tab_2 {
+    background: url('../img/bg/bg_tab.png') no-repeat center center/cover;
+}
+
+.tab_3 {
+    background: url('../img/bg/bg_tab.png') no-repeat center center/cover;
+}
+
+.tab_4 {
+    background: url('../img/bg/bg_tab.png') no-repeat center center/cover;
+}
+
+.tab_5 {
+    background: url('../img/bg/bg_tab.png') no-repeat center center/cover;
+}
+
+.tab_6 {
+    background: url('../img/bg/bg_tab.png') no-repeat center center/cover;
+}
+
+.tab_7 {
+    background: url('../img/bg/bg_tab.png') no-repeat center center/cover;
+}
+
+.tab_8 {
+    background: url('../img/bg/bg_tab.png') no-repeat center center/cover;
+}
+
+.shapes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 148px;
+
+    img {
+        display: block;
+    }
+}

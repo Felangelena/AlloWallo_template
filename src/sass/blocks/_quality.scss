@@ -1,0 +1,27 @@
+.quality {
+    &__box {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 205px;
+        height: 205px;
+        background-color: #ccc;
+
+        font-family: 'Bodoni Moda',
+            serif;
+        font-size: 24px;
+        font-weight: 600;
+        font-style: italic;
+        text-align: center;
+    }
+
+    .shapes {
+        height: 96px;
+    }
+}

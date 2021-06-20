@@ -1,0 +1,99 @@
+.text_container {
+    width: 825px;
+    margin: 0 auto;
+}
+
+p {
+    font-family: 'Source Serif Pro',
+        serif;
+    font-size: 22px;
+    margin-bottom: 25px;
+    line-height: 1.4;
+}
+
+.text_container a {
+    color: blue;
+    text-decoration: underline;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.grey {
+    color: grey;
+}
+
+blockquote {
+    position: relative;
+    font-family: 'Source Serif Pro',
+        serif;
+    font-size: 22px;
+    line-height: 1.4;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 9px 9px 6px -4px rgba(#8c8c8c, 0.6);
+    margin: 25px 0;
+    padding: 45px 45px 20px 45px;
+
+    &::before,
+    &::after {
+        content: "\275D";
+        position: absolute;
+        color: rgb(43, 18, 102);
+        font-size: 100px;
+    }
+
+    &::before {
+        content: "\275D";
+        top: -16px;
+        left: 12px;
+    }
+
+    &::after {
+        content: "\275E";
+        right: 12px;
+    }
+}
+
+cite {
+    display: block;
+    color: grey;
+    text-transform: uppercase;
+    font-style: normal;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.quotes img {
+    display: block;
+    width: 100%;
+}
+
+.photo-descr {
+    font-size: 16px;
+    color: grey;
+    text-transform: uppercase;
+}
+
+.quotes ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.quotes li::marker {
+    font-size: 20px;
+    color: #29226b;
+    margin-top: 3px;
+}
+
+.quotes li {
+    font-family: 'Source Serif Pro',
+        serif;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 1023.98px) {
+
+    .text_container {
+        width: 80%;
+    }
+}

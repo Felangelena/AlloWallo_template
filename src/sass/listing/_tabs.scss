@@ -1,0 +1,10 @@
+#tabs {
+    margin-bottom: 25px;
+
+    & .tab {
+        &:hover {
+            background: #333;
+            color: #FFF;
+        }
+    }
+}

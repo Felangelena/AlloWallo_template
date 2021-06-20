@@ -1,0 +1,21 @@
+.new {
+
+    &__box {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    .picture__item {
+        margin-right: 25px;
+        margin-bottom: 0px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    .picture__info {
+        max-width: 230px;
+        margin: 35px auto 0 auto;
+    }
+}
