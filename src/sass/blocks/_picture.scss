@@ -1,16 +1,5 @@
 .picture {
 
-    &__item {
-        display: block;
-        width: 45%;
-        margin-right: 55px;
-        margin-bottom: 72px;
-
-        &:nth-child(even) {
-            margin-right: 0;
-        }
-    }
-
     &__img {
         display: block;
         width: 100%;

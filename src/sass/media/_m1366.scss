@@ -38,6 +38,10 @@
         width: 450px;
     }
 
+    .title span {
+        left: 560px;
+    }
+
     #tabs .tab {
         width: 114px;
         height: 50px;
@@ -85,24 +89,9 @@
         height: 70px;
     }
 
-    .occasions {
-
-        &__item {
-
-            margin-bottom: 50px;
-            padding-right: 25px;
-            padding-left: 25px;
-
-            &__days {
-                display: flex;
-                width: 100%;
-                justify-content: space-between;
-            }
-        }
-
-        .btn {
-            margin: 0px auto 40px auto;
-        }
+    .occasions__grid {
+        gap: 50px;
+        padding: 0;
     }
 
     .picture {
@@ -120,11 +109,12 @@
         }
     }
 
-    .views {
 
-        &__item {
-            padding-right: 20px;
-            padding-left: 20px;
+    .grid-4-col {
+        padding: 0;
+
+        &_narrow {
+            column-gap: 40px;
         }
 
         &__text {
@@ -137,26 +127,19 @@
         }
     }
 
-    .new {
-
-        .picture__title {
-            height: 56px;
-        }
-
-        .picture__info {
-            max-width: 220px;
-        }
+    .picture__title {
+        min-height: 56px;
     }
+
 
     .opinions h2 {
         margin-top: 40px;
     }
 
-    .quality {
-        &__item {
-            width: 145px;
-            height: 145px;
-            font-size: 18px;
-        }
+    .quality__item {
+        width: 145px;
+        height: 145px;
+        font-size: 18px;
     }
+
 }

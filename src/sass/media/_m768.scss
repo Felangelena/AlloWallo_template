@@ -3,6 +3,10 @@
         width: 520px;
     }
 
+    .subtitle {
+        font-size: 14px;
+    }
+
     .logo {
         right: 25px;
     }
@@ -15,14 +19,13 @@
         font-size: 32px;
 
         span {
-            width: 170px;
             left: 320px;
         }
     }
 
     .tab_content {
         width: 100%;
-        height: auto;
+        height: 205px;
     }
 
     #tabs .tab {
@@ -49,10 +52,11 @@
         letter-spacing: 1px;
         font-size: 16px;
         line-height: 16px;
+        margin: 30px auto;
 
         &_wide {
             width: 210px;
-            margin: 15px auto 35px auto;
+
         }
     }
 
@@ -74,67 +78,54 @@
         margin-bottom: 25px;
     }
 
-    .occasions__info {
-        font-size: 14px;
-    }
+    .occasions {
 
-    .occasions__item {
-        margin-bottom: 20px;
+        &__grid {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+            padding: 0 30px;
+        }
 
-        &__days {
+        &__title {
+            font-size: 15px;
+        }
+
+        &__item__days {
             font-size: 14px;
         }
     }
 
-    .recommends__info {
-        font-size: 14px;
+    .recommends__grid {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0;
     }
 
-    .recommends .btn {
-        margin-top: 0px;
-    }
-
-    .picture__item {
-        width: 90%;
-        margin-right: 0;
-    }
-
-    .best__info {
-        font-size: 14px;
-    }
-
-    .views__box {
-        flex-flow: row wrap;
-    }
-
-    .views__item {
-        width: 100%;
-        margin-bottom: 35px;
-    }
-
-    .views__text {
-        margin-top: 0px;
-    }
-
-    .new__box {
-        flex-flow: row wrap;
-    }
-
-    .new .picture__item,
-    .new .picture__item:last-child {
-        margin: 30px auto 30px auto;
-    }
 
     .picture__title {
         margin-top: 35px;
     }
 
-    .new .picture__title {
-        height: auto;
+    .best__box {
+        width: 100%;
     }
 
-    .quality__item {
-        margin-bottom: 40px;
+    .grid-4-col {
+
+        grid-template-columns: repeat(1, 1fr);
+
+        &__title {
+            min-height: 30px;
+        }
+
+        &__author {
+            margin-top: 10px;
+        }
+    }
+
+    .quality__grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding: 0 50px;
     }
 
     footer {

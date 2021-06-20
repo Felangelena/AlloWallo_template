@@ -1,20 +1,9 @@
-.recommends {
-
-    &__info {
-        font-size: 16px;
-        font-weight: 300;
-        text-align: center;
-        line-height: 1.2;
-        margin-bottom: 60px;
-    }
-
-    &__box {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-    }
-
-    .btn {
-        margin: -20px auto 55px auto;
-    }
+.recommends__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, minmax(935px, auto));
+    grid-auto-rows: minmax(935px, auto);
+    column-gap: 60px;
+    row-gap: 75px;
+    padding: 0 35px;
 }

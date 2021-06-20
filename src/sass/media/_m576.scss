@@ -36,7 +36,6 @@
         height: 70px;
 
         span {
-            width: 170px;
             left: 140px;
         }
     }
@@ -51,6 +50,7 @@
 
     .tab_content {
         border-top: 10px solid #333;
+        height: 130px;
     }
 
     .circle {
@@ -63,16 +63,17 @@
     }
 
     .btn {
-        width: 80px;
-        height: 35px;
+        width: 120px;
+        height: 50px;
         letter-spacing: 1px;
-        font-size: 10px;
-        line-height: 14px;
+        font-size: 15px;
+        line-height: 18px;
         padding: 5px;
+        margin: 30px auto;
 
         &_wide {
-            width: 150px;
-            margin: 0px auto 35px auto;
+            width: 190px;
+
         }
     }
 
@@ -101,27 +102,23 @@
         margin: 0 auto 20px auto;
     }
 
-    .occasions {
-
-        &__item {
-            width: 100%;
-            padding-right: 50px;
-            padding-left: 50px;
-            margin-bottom: 20px;
-
-            &__days {
-                font-size: 14px;
-            }
-        }
+    .subtitle {
+        font-size: 14px;
+        padding: 0 25px;
+        margin-bottom: 30px;
     }
 
-    .occasions__info,
-    .recommends__info,
-    .best__info,
-    .opinions__info {
-        font-size: 12px;
-        padding: 0 15px;
-        margin-bottom: 30px;
+    .occasions {
+
+        &__grid {
+            grid-template-columns: repeat(1, 1fr);
+            gap: 20px;
+            padding: 0 50px;
+        }
+
+        &__days {
+            font-size: 14px;
+        }
     }
 
     .picture {
@@ -151,33 +148,22 @@
         }
     }
 
-    .best .picture__item {
-        margin-bottom: 50px;
+    .recommends__grid,
+    .best__box,
+    .grid-4-col {
+        padding: 0 20px;
     }
 
-    .views__item,
-    .look .views__item {
-        padding-right: 30px;
-        padding-left: 30px;
+    .best .picture__item {
         margin-bottom: 40px;
     }
 
-    .views__title {
-        font-size: 16px;
-        height: auto;
-        margin-bottom: 15px;
+    .picture__title {
+        min-height: auto;
     }
 
-    .views__author {
-        margin-top: 10px;
-    }
-
-    .new .picture__info {
-        margin-top: 15px;
-    }
-
-    .look .views__title {
-        margin-top: 25px;
+    .mt55 {
+        margin-top: 35px;
     }
 
     .newsletter {
@@ -196,8 +182,9 @@
         }
     }
 
-    .quality__item {
-        margin-bottom: 20px;
+    .quality__grid {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0 55px;
     }
 
     .quality .shapes {
@@ -210,5 +197,9 @@
 
     .footer__item {
         width: 100%;
+    }
+
+    .listing {
+        margin: 30px auto 30px auto;
     }
 }

@@ -3,6 +3,14 @@
         width: 684px;
     }
 
+    .title span {
+        left: 430px;
+    }
+
+    .btn {
+        margin: 35px auto 35px auto;
+    }
+
     .navigation {
         position: relative;
         justify-content: flex-end;
@@ -163,9 +171,8 @@
         text-decoration: none;
     }
 
-    .title span {
-        width: 200px;
-        left: 420px;
+    .subtitle {
+        margin-bottom: 40px;
     }
 
     #tabs .tab {
@@ -190,20 +197,21 @@
 
     .occasions {
 
-        &__info {
-            margin-bottom: 30px;
+        &__grid {
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
         }
 
-        h3 {
+        &__title {
             font-size: 15px;
         }
+    }
 
-        &__item {
-            width: 50%;
-            margin-bottom: 40px;
-            padding-right: 30px;
-            padding-left: 30px;
-        }
+    .recommends__grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, minmax(500px, auto));
+        grid-auto-rows: minmax(500px, auto);
+        gap: 50px;
     }
 
     .picture {
@@ -218,55 +226,34 @@
         &__title {
             margin-top: 40px;
         }
-
-        &__item {
-            margin-bottom: 30px;
-        }
     }
 
-    .views {
+    .grid-4-col {
+
+        grid-template-columns: repeat(2, 1fr);
+
         &__title {
             font-size: 15px;
+            min-height: 50px;
         }
 
         &__text {
             margin-top: 0;
         }
-
-        &__item {
-            padding-right: 12px;
-            padding-left: 12px;
-            width: 50%;
-            margin-bottom: 40px;
-        }
-
-        &__box {
-            flex-flow: row wrap;
-        }
-    }
-
-    .new {
-        &__box {
-            flex-flow: row wrap;
-
-            .picture__item {
-                margin-bottom: 30px;
-            }
-        }
     }
 
     .quality {
 
-        &__box {
-            flex-flow: row wrap;
-            justify-content: space-around;
+        &__grid {
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 165px);
+            gap: 27px;
         }
 
         &__item {
             width: 210px;
             height: 165px;
             font-size: 18px;
-            margin-bottom: 18px;
         }
 
         .shapes {

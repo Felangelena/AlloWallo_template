@@ -7,8 +7,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;600;700&display=swap" rel="stylesheet"> 
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet"> 
   <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,900;1,600&family=Fira+Sans&display=swap" rel="stylesheet"> 
-  <link rel="stylesheet" href="css/style.min.css"> <!--CSS style-->
-  <link rel="stylesheet" href="css/mobile_menu.min.css" />
+  <link rel="stylesheet" href="css/style.min.css"> 
   <title>AlloWallo</title>
 </head>
 <body>
@@ -138,14 +137,14 @@
   <main>
     <section class="occasions container">
       <h2>Nadchodzące okazje prezentowe</h2>
-      <div class="occasions__info">
+      <div class="subtitle">
         Jeśli potrzebujesz specjalnej okazji aby kupić<br> 
         jeden z naszych polepszaczy przestrzeni zebraliśmy kilka nadchodzących.<br> 
         Znajdź jedną dla siebie!
       </div>
-      <div class="occasions__box">
+      <div class="occasions__grid">
         <div class="occasions__item">
-          <h3>Dzień Dziecka</h3>
+          <div class="occasions__title">Dzień Dziecka</div>
           <div class="occasions__item__days">
             <div class="occasions__item__day">
               <span>11</span> marca
@@ -157,7 +156,7 @@
         </div>
 
         <div class="occasions__item">
-          <h3>Dzień Dziadka</h3>
+          <div class="occasions__title">Dzień Dziadka</div>
           <div class="occasions__item__days">
             <div class="occasions__item__day">
               <span>11</span> marca
@@ -169,7 +168,7 @@
         </div>        
         
         <div class="occasions__item">
-          <h3>Dzień Darwina</h3>
+          <div class="occasions__title">Dzień Darwina</div>
           <div class="occasions__item__days">
             <div class="occasions__item__day">
               <span>11</span> marca
@@ -181,7 +180,7 @@
         </div>
 
         <div class="occasions__item">
-          <h3>Idy marcowe</h3>
+          <div class="occasions__title">Idy marcowe</div>
           <div class="occasions__item__days">
             <div class="occasions__item__day">
               <span>11</span> marca
@@ -193,7 +192,7 @@
         </div>
         
         <div class="occasions__item">
-          <h3>Międzynarodowy Dzień Słońca</h3>
+          <div class="occasions__title">Międzynarodowy Dzień Słońca</div>
           <div class="occasions__item__days">
             <div class="occasions__item__day">
               <span>11</span> marca
@@ -205,7 +204,7 @@
         </div>    
 
         <div class="occasions__item">
-          <h3>Dzień Kobiet</h3>
+          <div class="occasions__title">Dzień Kobiet</div>
           <div class="occasions__item__days">
             <div class="occasions__item__day">
               <span>11</span> marca
@@ -217,7 +216,7 @@
         </div>
 
         <div class="occasions__item">
-          <h3>Bachanalia</h3>
+          <div class="occasions__title">Bachanalia</div>
           <div class="occasions__item__days">
             <div class="occasions__item__day">
               <span>11</span> marca
@@ -229,7 +228,7 @@
         </div>
         
         <div class="occasions__item">
-          <h3>walentynki</h3>
+          <div class="occasions__title">walentynki</div>
           <div class="occasions__item__days">
             <div class="occasions__item__day">
               <span>11</span> marca
@@ -241,18 +240,18 @@
         </div>  
       </div>
 
-      <a href="" class="btn btn_black">wszystkie<br> okazje</a>
+      <a href="#" class="btn btn_black">wszystkie<br> okazje</a>
     </section>
 
     <section class="recommends container">
       <h2>Autorzy polecają</h2>
-      <div class="recommends__info">
+      <div class="subtitle">
         Jeśli potrzebujesz specjalnej okazji aby kupić<br> 
         jeden z naszych polepszaczy przestrzeni zebraliśmy kilka nadchodzących.<br> 
         Znajdź jedną dla siebie!
       </div>
 
-      <div class="recommends__box">
+      <div class="recommends__grid">
         <div class="picture__item">
           <img class="picture__img" src="img/authors/01.png" alt="betonowy krąg z palmami">
           <h3 class="picture__title">betonowy krąg z palmami</h3>
@@ -347,88 +346,93 @@
 
     <section class="best container">
       <h2>Obraz tygodnia</h2>
-      <div class="best__info">
+      <div class="subtitle">
         Jeśli potrzebujesz specjalnej okazji aby kupić<br> 
         jeden z naszych polepszaczy przestrzeni zebraliśmy kilka nadchodzących.<br> 
         Znajdź jedną dla siebie!
       </div>
 
-      <div class="picture__item">
-        <img class="picture__img" src="img/authors/best.png" alt="Żeliwny właz">
-        <h3 class="picture__title">Żeliwny właz</h3>
-        <a href="product.html" class="picture__cart">
-          od 150zł
-          <img src="img/icons/cart.png" alt="cart">
-        </a>
-        <div class="picture__descr">
-          Daje przyjemność posiadania na ścianie swojego domu jakże<br>
-          charakterystycznego dla przestrzeni miejskiej elementu - włazu<br> 
-          żeliwnego, z całą jego siermiężnością, zadziornością bez obawy, że<br>
-          będzie zbyt ciężki względem użytych haków.
-        </div>
-        <div class="picture__info">
-          Prot Haładaj | okręgi | miejskie | 1000mm średnicy
-        </div>
-        <div class="picture__materials">
-          farba, właz, żeliwo, metal, chlapnięte,<br> 
-          białe tło, miasto
+      <div class="best__box">
+
+        <div class="picture__item">
+          <img class="picture__img" src="img/authors/best.png" alt="Żeliwny właz">
+          <h3 class="picture__title">Żeliwny właz</h3>
+          <a href="product.html" class="picture__cart">
+            od 150zł
+            <img src="img/icons/cart.png" alt="cart">
+          </a>
+          <div class="picture__descr">
+            Daje przyjemność posiadania na ścianie swojego domu jakże<br>
+            charakterystycznego dla przestrzeni miejskiej elementu - włazu<br> 
+            żeliwnego, z całą jego siermiężnością, zadziornością bez obawy, że<br>
+            będzie zbyt ciężki względem użytych haków.
+          </div>
+          <div class="picture__info">
+            Prot Haładaj | okręgi | miejskie | 1000mm średnicy
+          </div>
+          <div class="picture__materials">
+            farba, właz, żeliwo, metal, chlapnięte,<br> 
+            białe tło, miasto
+          </div>
         </div>
       </div>
 
-      <div class="views__box">
-        <div class="views__item">
-          <h4 class="views__title">“Intrygujący melanż”</h4>
-          <div class="views__text">
-            Dla Twojego dziecka, rodzonego, przybranego, chrzestnego lub dziecka dorosłego. 
-            <div class="views__author">
+      <div class="grid-4-col grid-4-col_narrow">
+
+        <div class="grid-4-col__item">
+          <h4 class="grid-4-col__title">“Intrygujący melanż”</h4>
+          <div class="grid-4-col__text">
+            Dla Twojego dziecka, rodzonego, przybranego, chrzestnego lub dziecka dorosłego.   
+          </div> 
+          <div class="grid-4-col__author">
               Andrzej Kowalski<br>
               architekt
-            </div>   
           </div> 
         </div>        
 
-        <div class="views__item">
-          <h4 class="views__title">“ożywi Twoje wnętrze”</h4>
-          <div class="views__text">
+        <div class="grid-4-col__item">
+          <h4 class="grid-4-col__title">“ożywi Twoje wnętrze”</h4>
+          <div class="grid-4-col__text">
             Dla Twojego dziecka, rodzonego, przybranego, chrzestnego lub dziecka dorosłego. Znasz jedno takie. Dla Twojego rodzonego, przybranego, chrzestnego lub dziecka dorosłego. Znasz jedno takie.
-            <div class="views__author">
+          Dla Twojego dziecka, rodzonego, przybranego, chrzestnego lub dziecka dorosłego.
+          </div> 
+            <div class="grid-4-col__author">
               Andrzej Kowalski<br>
               architekt
             </div>
-          </div> 
         </div>    
 
-        <div class="views__item">
-          <h4 class="views__title">“Intrygujący Twoje wnętrze”</h4>
-          <div class="views__text">
-            Znasz jedno takie. Dla Twojego rodzonego, przybranego, chrzestnego lub dziecka dorosłego. Znasz jedno takie.
-            <div class="views__author">
+        <div class="grid-4-col__item">
+          <h4 class="grid-4-col__title">“Intrygujący Twoje wnętrze”</h4>
+          <div class="grid-4-col__text">
+            Znasz jedno takie. Dla Twojego rodzonego, przybranego, chrzestnego lub dziecka dorosłego. Znasz jedno takie.   
+          </div> 
+          <div class="grid-4-col__author">
               Andrzej Kowalski<br>
               architekt
-            </div>       
-          </div> 
+            </div>    
         </div>        
 
-        <div class="views__item">
-          <h4 class="views__title">“Twoje wnętrze”</h4>
-          <div class="views__text">
+        <div class="grid-4-col__item">
+          <h4 class="grid-4-col__title">“Twoje wnętrze”</h4>
+          <div class="grid-4-col__text">
             Dla Twojego dziecka, rodzonego, przybranego, chrzestnego lub dziecka dorosłego znasz jedno takie.
-            <div class="views__author">
-              Andrzej Kowalski<br>
-              architekt
-            </div>
           </div> 
+          <div class="grid-4-col__author">
+            Andrzej Kowalski<br>
+            architekt
+          </div>
         </div>  
 
       </div>
 
-      <a href="" class="btn btn_black btn_wide">poprzednie prace<br> tygodnia</a>
+        <a href="" class="btn btn_black btn_wide">poprzednie prace<br> tygodnia</a>
     </section>
 
     <section class="new container">
       <h2>Najnowsze prace</h2>
 
-      <div class="new__box">
+      <div class="grid-4-col">
         <div class="picture__item">
           <img class="picture__img" src="img/authors/01.png" alt="betonowy krąg z palmami">
           <h3 class="picture__title">betonowy krąg z palmami</h3>
@@ -437,7 +441,9 @@
             <img src="img/icons/cart.png" alt="cart">
           </a>
           <div class="picture__info">
-            Prot Haładaj | okręgi | miejskie | 1000mm średnicy
+            Prot Haładaj<br>
+            okręgi | miejskie<br>
+            1000mm średnicy
           </div>
         </div>
 
@@ -449,7 +455,9 @@
             <img src="img/icons/cart.png" alt="cart">
           </a>
           <div class="picture__info">
-            Prot Haładaj | okręgi | miejskie | 1000mm średnicy
+            Prot Haładaj<br>
+            okręgi | miejskie<br>
+            1000mm średnicy
           </div>
         </div>
         
@@ -461,7 +469,9 @@
             <img src="img/icons/cart.png" alt="cart">
           </a>
           <div class="picture__info">
-            Prot Haładaj | okręgi | miejskie | 1000mm średnicy
+            Prot Haładaj<br>
+            okręgi | miejskie<br>
+            1000mm średnicy
           </div>
         </div>
 
@@ -473,7 +483,9 @@
             <img src="img/icons/cart.png" alt="cart">
           </a>
           <div class="picture__info">
-            Prot Haładaj | okręgi | miejskie | 1000mm średnicy
+            Prot Haładaj<br>
+            okręgi | miejskie<br>
+            1000mm średnicy
           </div>
         </div>
       </div>
@@ -484,54 +496,63 @@
     <section class="look container">
       <h2>Zobacz osobiście nasze prace</h2>
 
-      <div class="views__box">
-        <div class="views__item">
-          <img class="picture__img" src="img/authors/01.png" alt="betonowy krąg z palmami">
-          <h4 class="views__title">“Intrygujący melanż”</h4>
-          <div class="views__text">
-            Dla Twojego dziecka, rodzonego, przybranego, chrzestnego lub dziecka dorosłego. 
-            <div class="views__author">
-              Andrzej Kowalski<br>
-              architekt
-            </div>   
-          </div> 
-        </div>        
+      <div class="grid-4-col">
 
-        <div class="views__item">
-          <img class="picture__img" src="img/authors/02.png" alt="Żeliwny właz">
-          <h4 class="views__title">“ożywi Twoje wnętrze”</h4>
-          <div class="views__text">
-            Dla Twojego dziecka, rodzonego, przybranego, chrzestnego lub dziecka dorosłego. Znasz jedno takie. Dla Twojego rodzonego, przybranego, chrzestnego lub dziecka dorosłego. Znasz jedno takie.
-            <div class="views__author">
+        <div class="grid-4-col__item">
+          <img class="picture__img" src="img/authors/01.png" alt="betonowy krąg z palmami">
+          <div class="p20">
+            <h4 class="grid-4-col__title mt55">“Intrygujący melanż”</h4>
+            <div class="grid-4-col__text">
+              Dla Twojego dziecka, rodzonego, przybranego, chrzestnego lub dziecka dorosłego.  
+            </div> 
+            <div class="grid-4-col__author">
               Andrzej Kowalski<br>
               architekt
             </div>
-          </div> 
+          </div>
+        </div>        
+
+        <div class="grid-4-col__item">
+          <img class="picture__img" src="img/authors/02.png" alt="Żeliwny właz">
+          <div class="p20">
+            <h4 class="grid-4-col__title mt55">“ożywi Twoje wnętrze”</h4>
+            <div class="grid-4-col__text">
+              Dla Twojego dziecka, rodzonego, przybranego, chrzestnego lub dziecka dorosłego. Znasz jedno takie. Dla Twojego rodzonego, przybranego, chrzestnego lub dziecka dorosłego. Znasz jedno takie.
+            </div> 
+            <div class="grid-4-col__author">
+              Andrzej Kowalski<br>
+              architekt
+            </div>
+          </div>
         </div>    
 
-        <div class="views__item">
-          <img class="picture__img" src="img/authors/03.png" alt="betonowy krąg z palmami">
-          <h4 class="views__title">“Intrygujący Twoje wnętrze”</h4>
-          <div class="views__text">
-            Znasz jedno takie. Dla Twojego rodzonego, przybranego, chrzestnego lub dziecka dorosłego. Znasz jedno takie.
-            <div class="views__author">
+        <div class="grid-4-col__item">
+          <img class="picture__img" src="img/authors/03.png" alt="betonowy krąg z palmami">       
+          <div class="p20">
+            <h4 class="grid-4-col__title mt55">“Intrygujący Twoje wnętrze”</h4>
+            <div class="grid-4-col__text">
+              Znasz jedno takie. Dla Twojego rodzonego, przybranego, chrzestnego lub dziecka dorosłego. Znasz jedno takie.      
+            </div> 
+            <div class="grid-4-col__author">
               Andrzej Kowalski<br>
               architekt
-            </div>       
-          </div> 
+            </div> 
+          </div>
         </div>        
 
-        <div class="views__item">
+        <div class="grid-4-col__item">
           <img class="picture__img" src="img/authors/04.png" alt="Żeliwny właz">
-          <h4 class="views__title">“Twoje wnętrze”</h4>
-          <div class="views__text">
-            Dla Twojego dziecka, rodzonego, przybranego, chrzestnego lub dziecka dorosłego znasz jedno takie.
-            <div class="views__author">
+          <div class="p20">
+            <h4 class="grid-4-col__title mt55">“Twoje wnętrze”</h4>
+            <div class="grid-4-col__text">
+              Dla Twojego dziecka, rodzonego, przybranego, chrzestnego lub dziecka dorosłego znasz jedno takie.
+            </div> 
+            <div class="grid-4-col__author">
               Andrzej Kowalski<br>
               architekt
-            </div>
+            </div> 
           </div> 
-        </div>  
+        </div>
 
       </div>
 
@@ -541,55 +562,64 @@
     <section class="news container">
       <h2>Aktualności</h2>
 
-      <div class="views__box">
-        <div class="views__item">
-          <img class="picture__img" src="img/authors/01.png" alt="betonowy krąg z palmami">
-          <h4 class="views__title">“Intrygujący melanż”</h4>
-          <div class="views__text">
-            Dla Twojego dziecka, rodzonego, przybranego, chrzestnego lub dziecka dorosłego. 
-            <div class="views__author">
-              Andrzej Kowalski<br>
-              architekt
-            </div>   
-          </div> 
-        </div>        
+      <div class="grid-4-col">
 
-        <div class="views__item">
-          <img class="picture__img" src="img/authors/02.png" alt="Żeliwny właz">
-          <h4 class="views__title">“ożywi Twoje wnętrze”</h4>
-          <div class="views__text">
-            Dla Twojego dziecka, rodzonego, przybranego, chrzestnego lub dziecka dorosłego. Znasz jedno takie. Dla Twojego rodzonego, przybranego, chrzestnego lub dziecka dorosłego. Znasz jedno takie.
-            <div class="views__author">
+        <div class="grid-4-col__item">
+          <img class="picture__img" src="img/authors/01.png" alt="betonowy krąg z palmami">
+          <div class="p20">
+            <h4 class="grid-4-col__title mt55">“Intrygujący melanż”</h4>
+            <div class="grid-4-col__text">
+              Dla Twojego dziecka, rodzonego, przybranego, chrzestnego lub dziecka dorosłego.  
+            </div> 
+            <div class="grid-4-col__author">
               Andrzej Kowalski<br>
               architekt
             </div>
-          </div> 
+          </div>
+        </div>        
+
+        <div class="grid-4-col__item">
+          <img class="picture__img" src="img/authors/02.png" alt="Żeliwny właz">
+          <div class="p20">
+            <h4 class="grid-4-col__title mt55">“ożywi Twoje wnętrze”</h4>
+            <div class="grid-4-col__text">
+              Dla Twojego dziecka, rodzonego, przybranego, chrzestnego lub dziecka dorosłego. Znasz jedno takie. Dla Twojego rodzonego, przybranego, chrzestnego lub dziecka dorosłego. Znasz jedno takie.
+            </div> 
+            <div class="grid-4-col__author">
+              Andrzej Kowalski<br>
+              architekt
+            </div>
+          </div>
         </div>    
 
-        <div class="views__item">
-          <img class="picture__img" src="img/authors/03.png" alt="betonowy krąg z palmami">
-          <h4 class="views__title">“Intrygujący Twoje wnętrze”</h4>
-          <div class="views__text">
-            Znasz jedno takie. Dla Twojego rodzonego, przybranego, chrzestnego lub dziecka dorosłego. Znasz jedno takie.
-            <div class="views__author">
+        <div class="grid-4-col__item">
+          <img class="picture__img" src="img/authors/03.png" alt="betonowy krąg z palmami">       
+          <div class="p20">
+            <h4 class="grid-4-col__title mt55">“Intrygujący Twoje wnętrze”</h4>
+            <div class="grid-4-col__text">
+              Znasz jedno takie. Dla Twojego rodzonego, przybranego, chrzestnego lub dziecka dorosłego. Znasz jedno takie.      
+            </div> 
+            <div class="grid-4-col__author">
               Andrzej Kowalski<br>
               architekt
-            </div>       
-          </div> 
+            </div> 
+          </div>
         </div>        
 
-        <div class="views__item">
+        <div class="grid-4-col__item">
           <img class="picture__img" src="img/authors/04.png" alt="Żeliwny właz">
-          <h4 class="views__title">“Twoje wnętrze”</h4>
-          <div class="views__text">
-            Dla Twojego dziecka, rodzonego, przybranego, chrzestnego lub dziecka dorosłego znasz jedno takie.
-            <div class="views__author">
+          <div class="p20">
+            <h4 class="grid-4-col__title mt55">“Twoje wnętrze”</h4>
+            <div class="grid-4-col__text">
+              Dla Twojego dziecka, rodzonego, przybranego, chrzestnego lub dziecka dorosłego znasz jedno takie.
+            </div> 
+            <div class="grid-4-col__author">
               Andrzej Kowalski<br>
               architekt
-            </div>
+            </div> 
           </div> 
-        </div>  
-
+        </div>
+        
       </div>
 
       <a href="#" class="btn btn_black btn_wide">wszystkie <br>aktualności </a>
@@ -611,53 +641,55 @@
 
     <section class="opinions container">
       <h2>Opinie</h2>
-      <div class="opinions__info">
+      <div class="subtitle">
         Jakie jest źródło opinii w internecie? Gdzie musimy być z opiniami o naszym produkcie?
       </div>
 
-      <div class="views__box">
-        <div class="views__item">
-          <h4 class="views__title">“Intrygujący melanż”</h4>
-          <div class="views__text">
-            Dla Twojego dziecka, rodzonego, przybranego, chrzestnego lub dziecka dorosłego. 
-            <div class="views__author">
+      <div class="grid-4-col grid-4-col_narrow">
+        
+        <div class="grid-4-col__item">
+          <h4 class="grid-4-col__title">“Intrygujący melanż”</h4>
+          <div class="grid-4-col__text">
+            Dla Twojego dziecka, rodzonego, przybranego, chrzestnego lub dziecka dorosłego.   
+          </div> 
+          <div class="grid-4-col__author">
               Andrzej Kowalski<br>
               architekt
-            </div>   
           </div> 
         </div>        
 
-        <div class="views__item">
-          <h4 class="views__title">“ożywi Twoje wnętrze”</h4>
-          <div class="views__text">
+        <div class="grid-4-col__item">
+          <h4 class="grid-4-col__title">“ożywi Twoje wnętrze”</h4>
+          <div class="grid-4-col__text">
             Dla Twojego dziecka, rodzonego, przybranego, chrzestnego lub dziecka dorosłego. Znasz jedno takie. Dla Twojego rodzonego, przybranego, chrzestnego lub dziecka dorosłego. Znasz jedno takie.
-            <div class="views__author">
+          Dla Twojego dziecka, rodzonego, przybranego, chrzestnego lub dziecka dorosłego.
+          </div> 
+            <div class="grid-4-col__author">
               Andrzej Kowalski<br>
               architekt
             </div>
-          </div> 
         </div>    
 
-        <div class="views__item">
-          <h4 class="views__title">“Intrygujący Twoje wnętrze”</h4>
-          <div class="views__text">
-            Znasz jedno takie. Dla Twojego rodzonego, przybranego, chrzestnego lub dziecka dorosłego. Znasz jedno takie.
-            <div class="views__author">
+        <div class="grid-4-col__item">
+          <h4 class="grid-4-col__title">“Intrygujący Twoje wnętrze”</h4>
+          <div class="grid-4-col__text">
+            Znasz jedno takie. Dla Twojego rodzonego, przybranego, chrzestnego lub dziecka dorosłego. Znasz jedno takie.   
+          </div> 
+          <div class="grid-4-col__author">
               Andrzej Kowalski<br>
               architekt
-            </div>       
-          </div> 
+            </div>    
         </div>        
 
-        <div class="views__item">
-          <h4 class="views__title">“Twoje wnętrze”</h4>
-          <div class="views__text">
+        <div class="grid-4-col__item">
+          <h4 class="grid-4-col__title">“Twoje wnętrze”</h4>
+          <div class="grid-4-col__text">
             Dla Twojego dziecka, rodzonego, przybranego, chrzestnego lub dziecka dorosłego znasz jedno takie.
-            <div class="views__author">
-              Andrzej Kowalski<br>
-              architekt
-            </div>
           </div> 
+          <div class="grid-4-col__author">
+            Andrzej Kowalski<br>
+            architekt
+          </div>
         </div>  
 
       </div>
@@ -668,7 +700,7 @@
     <section class="quality container">
       <h2>Gwarancja najwyższej jakości</h2>
 
-      <div class="quality__box">
+      <div class="quality__grid">
         <div class="quality__item">
           ekologia <br>recykling <br>sustainability
         </div>

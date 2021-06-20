@@ -96,4 +96,19 @@ cite {
     .text_container {
         width: 80%;
     }
+
+    p,
+    blockquote,
+    .quotes li {
+        font-size: 16px;
+    }
+
+    blockquote {
+
+        padding: 30px 20px 20px 20px;
+
+        &::before {
+            top: -38px;
+        }
+    }
 }
